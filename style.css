@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.container {
+  width: 320px;
+  padding: 20px;
+  text-align: center;
+  background: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #38bdf8;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0ea5e9;
+}
+
+.weather-box {
+  margin-top: 20px;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+.temp {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.info {
+  margin-top: 10px;
+}
+
+.card {
+  margin: 5px 0;
+}
+
+#error {
+  color: #ff6b6b;
+  margin-top: 10px;
+}
